@@ -56,13 +56,9 @@
      * @param {number} q
      * @returns {number}
      */
-function summ(w, q) {
-    let w = +prompt('Введите первое число')
-    let q = +prompt('Введите второе число')
+function summ(w, q) {   
         return w + q;
 }
-
-alert(`Сумма равна ${summ()}`);
    
     /**
      * Возвращает разность
@@ -72,11 +68,10 @@ alert(`Сумма равна ${summ()}`);
      */
 
 function difference(a, b) {
-         let a = +prompt('Введите первое число')
-         let b = +prompt('Введите второе число')
+       
         return a - b;
 }
-   alert(`Разность равна ${difference()}`);
+  
     /**
      * Возвращает деление
      * @param {number} a 
@@ -84,12 +79,11 @@ function difference(a, b) {
      * @returns {number}
      */
 function division(a, b) {
-         let a = +prompt('Введите первое число')
-         let b = +prompt('Введите второе число')
+       
         if (b === 0) return a
         else return a / b;
 }
-     alert(`Деление двух чисел равно ${division()}`);
+    
     
     /**
      * Возвращает произведение
@@ -98,11 +92,10 @@ function division(a, b) {
      * @returns {number}
      */
 function multiply(a, b) {
-         let a = +prompt('Введите первое число')
-         let b = +prompt('Введите второе число')
+      
         return a * b;
 }
-    alert(`Произведение двух чисел равно ${multiply()}`);
+    
 
     //Задание 5
     let arg1 = +prompt("Введите первое целое  число"),
